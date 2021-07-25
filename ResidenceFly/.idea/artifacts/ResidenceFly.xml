@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ResidenceFly">
+    <output-path>$PROJECT_DIR$/out/artifacts/ResidenceFly</output-path>
+    <root id="archive" name="ResidenceFly.jar">
+      <element id="module-output" name="ResidenceFly" />
+      <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/data.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>

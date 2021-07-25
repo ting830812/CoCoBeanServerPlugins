@@ -1,0 +1,10 @@
+name: ResidenceFly
+main: com.Ting.ResidenceFly.Main
+version: 1.0
+api-version: 1.16
+description: ResidenceFly
+loadbefore:
+  - Residence
+depend:
+  - Residence
+author: hat, Ting
