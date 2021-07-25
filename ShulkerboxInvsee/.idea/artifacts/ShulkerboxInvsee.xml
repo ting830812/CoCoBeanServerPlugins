@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ShulkerboxInvsee">
+    <output-path>$PROJECT_DIR$/out/artifacts/ShulkerboxInvsee</output-path>
+    <root id="archive" name="ShulkerboxInvsee.jar">
+      <element id="module-output" name="ShulkerboxInvsee" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/data.yml" />
+    </root>
+  </artifact>
+</component>
