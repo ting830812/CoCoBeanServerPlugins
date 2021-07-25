@@ -1,0 +1,12 @@
+name: ResidenceSafariNet
+main: com.Ting.ResidenceSafariNet.Main
+version: 1.0
+api-version: 1.16
+description: ResidenceSafariNet
+loadbefore:
+  - Residence
+  - SafariNet
+depend:
+  - Residence
+  - SafariNet
+author: Ting

@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ResidenceSafariNet">
+    <output-path>$PROJECT_DIR$/out/artifacts/ResidenceSafariNet</output-path>
+    <root id="archive" name="ResidenceSafariNet.jar">
+      <element id="module-output" name="ResidenceSafariNet" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/data.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
+    </root>
+  </artifact>
+</component>

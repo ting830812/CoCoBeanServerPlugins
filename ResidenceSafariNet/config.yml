@@ -1,0 +1,4 @@
+# 啟用或是停用 /res set spawn-egg
+res-spawn-egg: true # 默認開啟
+# 禁止使用時的訊息
+no-claim-spawn-egg-permission-msg: "§4You are not allowed to use spawn egg here!"
