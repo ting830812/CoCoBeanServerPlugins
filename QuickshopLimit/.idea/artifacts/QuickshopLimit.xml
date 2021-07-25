@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="QuickshopLimit">
+    <output-path>$PROJECT_DIR$/out/artifacts/QuickshopLimit</output-path>
+    <root id="archive" name="QuickshopLimit.jar">
+      <element id="module-output" name="QuickshopLimit" />
+      <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/data.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,9 @@
+#啟用或是停用/qs setmax指令
+setmax: false #默認關閉
+#啟用或是停用/qs setremove指令
+setremove: false #默認關閉
+#qs setmax notice
+setmax-msg: "數量限制設定爲{number}!"
+setremove-msg: "取消數量限制"
+notowner-msg: "你不是這個商店的擁有者!"
+overlimit-msg: "已經達到購買上限"

@@ -1,0 +1,10 @@
+name: QuickshopLimit
+main: com.Ting.QuickshopLimit.Main
+version: 1.0
+api-version: 1.16
+description: QuickshopLimit
+loadbefore:
+  - QuickShop
+depend:
+  - QuickShop
+author: hat, Ting
