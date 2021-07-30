@@ -17,7 +17,7 @@ public class SNListener implements Listener {
     @Override
     public void playerCatchEntity(Player player, Entity entity, Status status) {
 
-        final Location loc = player.getLocation().getBlock().getLocation();
+        final Location loc = player.getTargetBlock(null, 100).getLocation();
         ClaimedResidence res = Residence.getInstance().getResidenceManager().getByLoc(loc);
         if (res != null) {
             ResidencePermissions perms = res.getPermissions();
@@ -33,7 +33,7 @@ public class SNListener implements Listener {
     @Override
     public void playerReleaseEntity(Player player, Entity entity, Status status) {
 
-        final Location loc = player.getLocation().getBlock().getLocation();
+        final Location loc = player.getTargetBlock(null, 100).getLocation();
         ClaimedResidence res = Residence.getInstance().getResidenceManager().getByLoc(loc);
         if (res != null) {
             ResidencePermissions perms = res.getPermissions();
